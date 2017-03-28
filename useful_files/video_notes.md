@@ -8,9 +8,9 @@ Modeline 	"Mode 4" 297.00 2160 2200 2220 2266 1200 1228 1230 1464 -hsync -vsync
 
 Feed the vive modeline data to this:  https://github.com/olihey/c2_mode
 
-Results (suggested patches to odroid kernel odroid-c2-rt-kernel-odroidc2-3-14-rt68.y):
------
-```['Modeline', '2160x1200_90.0', '297.00', '2160', '2200', '2220', '2266', '1200', '1228', '1230', '1464', '-hsync', '-vsync']
+#### Results (suggested patches to odroid kernel odroid-c2-rt-kernel-odroidc2-3-14-rt68.y):
+``` c
+['Modeline', '2160x1200_90.0', '297.00', '2160', '2200', '2220', '2266', '1200', '1228', '1230', '1464', '-hsync', '-vsync']
 
 
 
@@ -250,5 +250,4 @@ static const struct reg_s tvregs_2160x1200p90hz[] = {
         fb_def_var[index].yres_virtual = 2400;
         fb_def_var[index].bits_per_pixel = 32;
         break;
-
-```-----
+```
