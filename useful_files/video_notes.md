@@ -253,3 +253,5 @@ static const struct reg_s tvregs_2160x1200p90hz[] = {
         break;
 ```
 ___
+
+As a matter of technical interest, this online calculator gives slightly different timing values for the same modeline:  http://www.epanorama.net/faq/vga2rgb/calc.html
