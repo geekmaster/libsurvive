@@ -2,6 +2,8 @@ Video_notes.md
 
 Useful notes about vive video, modelines and stuff.
 
+odroid c2 supported resolutions (without kernel patches):  http://odroid.com/dokuwiki/doku.php?id=supported_resolutions
+
 From vive EDID:
 
 Modeline 	"Mode 4" 297.00 2160 2200 2220 2266 1200 1228 1230 1464 -hsync -vsync
